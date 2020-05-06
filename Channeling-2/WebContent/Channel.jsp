@@ -12,28 +12,29 @@
 <title>Channeling Details</title>
 </head>
 <body>
+	<div style="background-image: url('Images/backimg.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-8">
-				<h1 class="m-3">Channeling details</h1>
+				<h1 class="m-3">Channeling Details</h1>
 				<form id="formChannel" name="formChannel">
 				
 				
-					Appointment ID:
+					<b>Appointment ID:</b>
 					<input id="AppointmentID" name="AppointmentID" type="text"
-						class="form-control form-control-sm"> <br> 
-					Appointment Date:
+						class="form-control form-control-sm" placeholder="Enter the Appointent ID"> <br> 
+					<b>Appointment Date:</b>
 					<input id="AppointmentDate" name="AppointmentDate" type="text"
-						class="form-control form-control-sm"> <br> 
-					Appointment Time: 
+						class="form-control form-control-sm" placeholder="Enter the Appointent Date"><br> 
+					<b>Appointment Time:</b> 
 					<input id="AppointmentTime" name="AppointmentTime" type="text"
-						class="form-control form-control-sm"> <br> 
-					Appointment Category: 
+						class="form-control form-control-sm" placeholder="Enter the Appointent Time"> <br> 
+					<b>Appointment Category:</b> 
 					<input id="AppointmentCategory" name="AppointmentCategory" type="text"
-						class="form-control form-control-sm"> <br>
-					Appointment Doctor: 
+						class="form-control form-control-sm" placeholder="Enter the Appointent Category"> <br>
+					<b>Appointment Doctor:</b> 
 					<input id="AppointmentDoctor" name="AppointmentDoctor" type="text"
-						class="form-control form-control-sm"> <br>
+						class="form-control form-control-sm" placeholder="Enter the Appointent Doctor"> <br>
 						 
 						<input id="btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary">
 						 <input type="hidden" id="hidChannelIDSave" name="hidChannelIDSave" value="">
@@ -54,6 +55,6 @@
 		</div>
 
 	</div>
-
+</div>
 </body>
 </html>

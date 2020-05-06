@@ -40,15 +40,5 @@
 			<type>1</type>
 			<location>D:/jquery-3.2.1.min.js</location>
 		</link>
-		<link>
-			<name>WebContent/Components/jquery-3.2.1.min.js</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/jquery-3.2.1.min.js</locationURI>
-		</link>
-		<link>
-			<name>WebContent/Views/bootstrap.min.css</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/bootstrap.min.css</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>
